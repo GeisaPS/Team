@@ -7,14 +7,14 @@ public class Programa001
 	public static void main(String[] args)
 	{
 		/* Texto */
-		System.out.println("Ol·! Qual seu nome?");
+		System.out.println("Ol√°! Qual seu nome?");
 		
 		/* Ler nome */
 		Scanner in  = new Scanner(System.in);
 		String nome = in.nextLine();
 
-		/* Texto e vari·vel */
+		/* Texto e vari√°vel teste */
 		System.out.println();
-		System.out.printf("Ol·, %s!\n", nome);
+		System.out.printf("Ol√°, %s!\n", nome);
 	}
 }
